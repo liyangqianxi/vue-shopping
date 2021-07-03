@@ -1,25 +1,62 @@
 {
-    "name": "shopping",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "go": "vue-cli-service serve",
-        "build": "vue-cli-service build"
-    },
-    "dependencies": {
-        "core-js": "^3.6.5",
-        "vant": "^2.12.22",
-        "vue": "^2.6.11",
-        "vue-router": "^3.2.0",
-        "vuex": "^3.4.0"
-    },
-    "devDependencies": {
-        "@vue/cli-plugin-babel": "~4.5.0",
-        "@vue/cli-plugin-router": "~4.5.0",
-        "@vue/cli-plugin-vuex": "~4.5.0",
-        "@vue/cli-service": "~4.5.0",
-        "sass": "^1.26.5",
-        "sass-loader": "^8.0.2",
-        "vue-template-compiler": "^2.6.11"
+  "name": "shopping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "go": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-url": "^8.0.0",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
+    "vant": "^2.12.22",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-aspect-ratio-mini": {},
+      "postcss-write-svg": {
+        "utf8": false
+      },
+      "postcss-cssnext": {},
+      "postcss-px-to-viewport": {
+        "viewportWidth": 375,
+        "viewportHeight": 667,
+        "unitPrecision": 3,
+        "viewportUnit": "vw",
+        "selectorBlackList": [
+          ".ignore",
+          ".hairlines"
+        ],
+        "minPixelValue": 1,
+        "mediaQuery": false
+      },
+      "cssnano": {
+        "cssnano-preset-advanced": {
+          "preset": "advanced",
+          "autoprefixer": false,
+          "postcss-zindex": false,
+          "zindex": false
+        }
+      }
     }
+  }
 }
