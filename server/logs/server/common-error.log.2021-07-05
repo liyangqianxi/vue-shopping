@@ -1,0 +1,32 @@
+2021-07-05 07:20:28,842 ERROR 260 nodejs.ClusterClientNoResponseError: client no response in 25532883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 260
+hostname: DESKTOP-0OV4JUH
+
+2021-07-05 08:20:50,540 ERROR 260 nodejs.ClusterClientNoResponseError: client no response in 3621573ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 260
+hostname: DESKTOP-0OV4JUH
+
+2021-07-05 12:58:32,084 ERROR 260 nodejs.ClusterClientNoResponseError: client no response in 3297346ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 260
+hostname: DESKTOP-0OV4JUH
+
+2021-07-05 21:40:57,254 ERROR 6324 nodejs.ClusterClientNoResponseError: client no response in 359289ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 6324
+hostname: DESKTOP-0OV4JUH
+

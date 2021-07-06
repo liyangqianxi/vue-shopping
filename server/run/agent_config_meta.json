@@ -144,21 +144,21 @@
     "directory": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "autoFields": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "fields": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "files": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "allowArrayField": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-    "tmpdir": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
+    "mode": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "files": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js",
-      "disable": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\config.default.js"
+      "cron": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js",
+      "disable": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\config.default.js"
     }
   },
   "development": {

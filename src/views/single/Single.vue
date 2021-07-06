@@ -1,6 +1,5 @@
 <template>
-    <!-- 单个商品详情 -->
-    <div>单个商品</div>
+    <div></div>
 </template>
 
 <script>
@@ -13,7 +12,13 @@ export default {
     },
     components: {},
     methods: {},
-    mounted () { },
+    mounted () {
+        this.$api.goods(id).then(res => {
+            console.log(res);
+        }).catch(err => {
+            console.log(err);
+        })
+    },
     computed: {},
     watch: {}
 }

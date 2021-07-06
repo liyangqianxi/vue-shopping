@@ -92,7 +92,7 @@
         "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\locales",
         "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\locales",
         "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\locales",
-        "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart\\config\\locales",
+        "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart\\config\\locales",
         "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\locales",
         "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\locales",
         "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
@@ -451,8 +451,8 @@
       ],
       "env": [],
       "from": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg@2.29.4@egg\\config\\plugin.js",
-      "path": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart",
-      "version": "2.12.0"
+      "path": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart",
+      "version": "2.13.0"
     },
     "security": {
       "enable": true,

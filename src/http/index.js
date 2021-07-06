@@ -6,7 +6,7 @@ let http = axios.create({
     // 基础路径
     baseURL: '/api',
     // 超时时间
-    timeout: 10000
+    timeout: 1000
 });
 
 // 响应拦截

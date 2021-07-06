@@ -400,8 +400,8 @@
       ],
       "env": [],
       "from": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg@2.29.4@egg\\config\\plugin.js",
-      "path": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.12.0@egg-multipart",
-      "version": "2.12.0"
+      "path": "D:\\project\\项目\\项目\\shopping\\server\\node_modules\\_egg-multipart@2.13.0@egg-multipart",
+      "version": "2.13.0"
     },
     "security": {
       "enable": true,
