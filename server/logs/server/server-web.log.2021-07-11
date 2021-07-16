@@ -1,0 +1,14 @@
+2021-07-11 14:47:39,828 ERROR 15288 [-/127.0.0.1/-/46ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '829f8bb596dc4270a46fa0a5b5937411': '' }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"{ '829f8bb596dc4270a46fa0a5b5937411': '' }\""
+kind: "string"
+value: {"829f8bb596dc4270a46fa0a5b5937411":""}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 15288
+hostname: DESKTOP-0OV4JUH
+

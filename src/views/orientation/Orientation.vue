@@ -136,11 +136,12 @@ export default {
     }
 }
 .text {
-    font-size: 20px;
+    font-size: 18px;
+    height: 41px;
     font-weight: bolder;
 }
 .cities {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     margin: 10px 0;
 }

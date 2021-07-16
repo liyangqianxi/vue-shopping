@@ -1,0 +1,58 @@
+2021-07-13 08:34:38,516 INFO 15244 [Job#16261364784015802575184016002] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 113ms. 
+2021-07-13 08:57:36,159 INFO 9272 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 08:57:36,159 INFO 9272 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 08:57:36,159 INFO 9272 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 08:57:36,159 INFO 19656 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 08:57:36,159 INFO 19656 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 08:57:36,159 INFO 19656 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 08:57:37,643 INFO 24352 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70342359ms at 2021-07-14 04:30:00.002
+2021-07-13 08:57:37,644 INFO 24352 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 54142357ms at 2021-07-14 00:00:00.001
+2021-07-13 08:57:37,644 INFO 24352 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54143356ms at 2021-07-14 00:00:01.000
+2021-07-13 08:57:37,921 INFO 13368 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 08:57:37,921 INFO 13368 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 08:57:37,921 INFO 13368 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 08:57:39,250 INFO 19476 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 08:57:39,250 INFO 19476 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 08:57:39,250 INFO 19476 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 08:57:40,626 INFO 2216 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 08:57:40,626 INFO 2216 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 08:57:40,626 INFO 2216 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 08:57:41,915 INFO 6116 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 08:57:41,915 INFO 6116 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 08:57:41,915 INFO 6116 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 10:27:55,891 INFO 23044 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 10:27:55,891 INFO 23044 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 10:27:55,891 INFO 23044 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 10:27:55,890 INFO 21452 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 10:27:55,890 INFO 21452 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 10:27:55,890 INFO 21452 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 15:51:08,435 INFO 18132 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 15:51:08,435 INFO 18132 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 15:51:08,435 INFO 18132 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 15:51:08,435 INFO 14380 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 15:51:08,435 INFO 14380 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 15:51:08,435 INFO 14380 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 17:33:02,836 INFO 24252 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 17:33:02,836 INFO 24252 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 17:33:02,836 INFO 24252 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-13 17:33:02,864 INFO 18740 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js
+2021-07-13 17:33:02,864 INFO 18740 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2021-07-13 17:33:02,864 INFO 18740 [egg-schedule]: register schedule D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2021-07-14 08:44:49,670 INFO 18740 [Job#16262234895276672709795179001] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2021-07-14 08:44:49,762 INFO 18740 [Job#1626223489602667271488250001] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-07-14 08:44:49,775 INFO 18740 [Job#1626223489609667271559435001] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-07-14 08:44:49,864 INFO 18740 [Job#16262234895276672709795179001] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 144ms. 
+2021-07-14 08:44:49,906 INFO 18740 [Job#1626223489609667271559435001] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 131ms. 
+2021-07-14 08:44:49,924 INFO 18740 [Job#1626223489602667271488250001] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 162ms. 
+2021-07-14 08:44:49,602 INFO 24352 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 54910443ms at 2021-07-15 00:00:00.045
+2021-07-14 08:44:49,609 INFO 24352 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54911397ms at 2021-07-15 00:00:01.006
+2021-07-14 08:44:49,836 INFO 24352 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71110390ms at 2021-07-15 04:30:00.226
+2021-07-14 08:44:49,727 INFO 24252 [Job#16262234896706672711174622003] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js executing by app
+2021-07-14 08:44:49,734 INFO 24252 [Job#16262234897066672711538233003] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-07-14 08:44:49,744 INFO 24252 [Job#16262234897156672711623578003] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-07-14 08:44:49,765 INFO 24252 [Job#16262234896706672711174622003] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js execute succeed, used 35ms. 
+2021-07-14 08:44:49,772 INFO 24252 [Job#16262234897156672711623578003] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 27ms. 
+2021-07-14 08:44:49,993 INFO 24252 [Job#16262234897066672711538233003] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 259ms. 
+2021-07-14 08:44:49,704 INFO 8168 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 54910325ms at 2021-07-15 00:00:00.029
+2021-07-14 08:44:49,712 INFO 8168 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54911292ms at 2021-07-15 00:00:01.004
+2021-07-14 08:44:49,729 INFO 8168 [Timer] D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71110285ms at 2021-07-15 04:30:00.014

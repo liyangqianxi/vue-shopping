@@ -1,63 +1,58 @@
 <template>
     <!-- 标签栏 -->
     <div>
-        <van-tabbar v-model="active" active-color="#ee0a24" inactive-color="#000" fixed border z-index="1">
-            <van-tabbar-item :badge="item.title == '购物车' ? getCartBadge:''" v-for="(item,index) in tabbar" :key="index" :to="item.url">
-                <span>{{item.title}}</span>
-                <template #icon="props">
-                    <img :src="!props.active ? item.icon : item.select_icon" />
-                </template>
-            </van-tabbar-item>
-        </van-tabbar>
+        <div class="box">
+            <div class="tail">
+                <van-tabbar route active-color="#ee0a24" inactive-color="#000" fixed border z-index="1">
+                    <van-tabbar-item replace to="/" icon="wap-home-o">商城</van-tabbar-item>
+                    <van-tabbar-item replace to="/classify" icon="wap-nav">分类</van-tabbar-item>
+                    <van-tabbar-item replace to="/shop" icon="shopping-cart" :badge="get">购物车</van-tabbar-item>
+                    <van-tabbar-item replace to="/mine" icon="manager-o">我的</van-tabbar-item>
+                </van-tabbar>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
+import Home from '../../views/Home'
+import Classify from '../../views/classify/Classify'
+import shop from '../../views/shop/Shop'
+import mine from '../../views/mine/Mine'
 export default {
-    name: '',
+    name: "",
     props: {},
     data () {
         return {
             active: 0,
-            tabbar: [
-                {
-                    title: '首页',
-                    icon: require("@/assets/home.png"),
-                    select_icon: require("@/assets/home-selected.png"),
-                    url: '/'
-                },
-                {
-                    title: '分类',
-                    icon: require("@/assets/category.png"),
-                    select_icon: require("@/assets/category-selected.png"),
-                    url: '/classify'
-                },
-                {
-                    title: '购物车',
-                    icon: require("@/assets/cart.png"),
-                    select_icon: require("@/assets/cart-selected.png"),
-                    url: '/shop'
-                },
-                {
-                    title: '我的',
-                    icon: require("@/assets/mine.png"),
-                    select_icon: require("@/assets/mine-selected.png"),
-                    url: '/mine'
-                }
-            ]
-        }
+        };
     },
-    components: {},
-    methods: {},
+    components: {
+        Home,
+        Classify,
+        shop,
+        mine
+    },
+    methods: {
+    },
     mounted () { },
     computed: {
-        getCartBadge () {
-            return 3;
+        get () {
+            if (localStorage.getItem("nickname") !== null) {
+                if (this.$store.state.badge == 0) {
+                    return ""
+                } else {
+                    return this.$store.state.badge
+                }
+            }
         }
     },
-    watch: {}
-}
+    watch: {},
+};
 </script>
 
 <style lang='scss' scoped>
+.box {
+    width: 100%;
+}
 </style>

@@ -6,7 +6,7 @@
             <!-- /* 这里是父盒子*/ -->
             <ul class="cont" ref="cont">
                 <!-- /* 这里是子盒子，即滚动区域*/ -->
-                <li class="cont-item" v-for="(item, index) in recommend" :key="index">
+                <li class="cont-item" v-for="(item, index) in recommend" :key="index" @click="details(item.goodsId)">
                     <div class="cont-img">
                         <img class="img" :src="item.image" />
                     </div>
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                     <div class="btn">
-                        <van-icon name="shopping-cart" class="icon" />
+                        <van-icon name="shopping-cart" class="icon" @click.stop="add(item)" />
                         <div class="xiang">查看详情</div>
                     </div>
                 </li>
@@ -28,6 +28,10 @@
 </template>
 
 <script>
+import Vue from 'vue';
+import { Toast } from 'vant';
+
+Vue.use(Toast);
 import BScroll from "better-scroll";
 export default {
     name: "",
@@ -57,6 +61,47 @@ export default {
                 }
             });
         },
+        //跳转到单个商品详情
+        details (item) {
+            this.$router.push({
+                path: '/single',
+                query: {
+                    id: item
+                }
+            })
+            // console.log(item);
+        },
+        add (item) {
+            this.$utils.checkLogin({
+                key: 'nickname',
+                next: this.collect,
+                item: item
+            })
+
+        },
+        collect (item) {
+            console.log(item);
+            //加入到购物车
+            // console.log(item.goodsId);
+            this.$api.addShop(item.goodsId).then(res => {
+                if (res.code === 200) {
+                    Toast.success('加入成功');
+                    this.$api.getCard().then(res => {
+                        // console.log(res);
+                        localStorage.setItem('badge', res.shopList.length)
+                        this.$store.commit('setBadge', res.shopList.length)
+                    }).catch(err => {
+                        console.log(err);
+                    })
+                    // this.$router.back()
+                }
+                // console.log(res);
+            }).catch(err => {
+                console.log(err);
+            })
+
+
+        }
     },
     mounted () {
         this.$nextTick(() => {

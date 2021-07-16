@@ -1,0 +1,273 @@
+2021-07-08 08:28:40,566 ERROR 21792 nodejs.ClusterClientNoResponseError: client no response in 27380330ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21792
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 08:31:08,722 ERROR 21792 nodejs.ClusterClientNoResponseError: client no response in 148037ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21792
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 10:45:26,491 ERROR 14376 nodejs.ClusterClientNoResponseError: client no response in 197038ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 14376
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:49:38,108 ERROR 13380 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:49:49,461 ERROR 13380 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:51:17,696 ERROR 13380 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:51:37,817 ERROR 13380 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:56:49,125 ERROR 13380 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:56:51,519 ERROR 13380 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:57:55,259 ERROR 13380 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:59:15,445 ERROR 13380 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 14:59:32,304 ERROR 13380 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13380
+hostname: DESKTOP-0OV4JUH
+
+2021-07-08 18:03:18,616 ERROR 16980 nodejs.ClusterClientNoResponseError: client no response in 141430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 16980
+hostname: DESKTOP-0OV4JUH
+
+2021-07-09 09:28:11,656 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 593808ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-09 10:41:03,449 ERROR 10132 [-/127.0.0.1/-/16ms POST /v1/address] nodejs.CastError: Cast to ObjectId failed for value "120101" (type string) at path "_id" for model "Address"
+    at model.Query.exec (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"120101\""
+kind: "ObjectId"
+value: "120101"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 10132
+hostname: DESKTOP-0OV4JUH
+
+2021-07-09 10:45:00,024 ERROR 10132 [-/127.0.0.1/-/3ms POST /v1/address] nodejs.CastError: Cast to ObjectId failed for value "210104" (type string) at path "_id" for model "Address"
+    at model.Query.exec (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"210104\""
+kind: "ObjectId"
+value: "210104"
+path: "_id"
+reason: {}
+valueType: "string"
+pid: 10132
+hostname: DESKTOP-0OV4JUH
+
+2021-07-09 13:30:14,299 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 5459150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-09 19:16:56,516 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 6296582ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-09 22:30:14,019 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 11037168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 00:06:30,128 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 5515957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+

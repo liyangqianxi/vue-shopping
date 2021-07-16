@@ -1,9 +1,7 @@
 <template>
     <div id="app">
         <div>
-            <keep-alive>
-                <router-view />
-            </keep-alive>
+            <router-view />
         </div>
         <div>
             <tabbar></tabbar>
@@ -29,5 +27,4 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-
 </style>

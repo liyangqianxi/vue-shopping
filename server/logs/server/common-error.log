@@ -1,8 +1,0 @@
-2021-07-06 08:29:18,645 ERROR 6324 nodejs.ClusterClientNoResponseError: client no response in 28077090ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
-    at listOnTimeout (node:internal/timers:557:17)
-    at processTimers (node:internal/timers:500:7)
-name: "ClusterClientNoResponseError"
-pid: 6324
-hostname: DESKTOP-0OV4JUH
-

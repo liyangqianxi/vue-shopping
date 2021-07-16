@@ -28,6 +28,7 @@
 </template>
 
 <script>
+import { Notify } from 'vant';
 export default {
     name: '',
     props: {},
@@ -60,10 +61,12 @@ export default {
                 password: this.password,
                 verify: this.verify
             }).then(res => {
-                console.log(res);
+                // console.log(res);
                 if (res.code === 200) {
-                    this.$notify(res.msg);
-                    this.$router.push("/")
+                    localStorage.setItem("nickname", this.nickname)
+                    Notify({ type: 'success', message: "登录成功" })
+                    // this.$notify(res.msg);
+                    this.$router.back()
                 } else {
                     this.$notify(res.msg);
                 }

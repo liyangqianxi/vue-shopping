@@ -1,0 +1,112 @@
+2021-07-13 08:54:21,416 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 802880ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 10:01:09,806 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 67747ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 13:32:25,360 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 5745783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 13:32:25,449 ERROR 24352 nodejs.ClusterClientNoResponseError: client no response in 5745788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24352
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 14:08:58,266 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 712205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 14:08:58,266 ERROR 24352 nodejs.ClusterClientNoResponseError: client no response in 712159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24352
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 16:47:41,023 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 650033ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+
+2021-07-13 16:47:41,022 ERROR 24352 nodejs.ClusterClientNoResponseError: client no response in 650027ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24352
+hostname: DESKTOP-0OV4JUH
+
+2021-07-14 08:44:49,842 ERROR 24352 nodejs.ClusterClientNoResponseError: client no response in 50303403ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 24352
+hostname: DESKTOP-0OV4JUH
+
+2021-07-14 08:44:49,949 ERROR 24252 nodejs.Error: [egg-logrotator] rename D:\project\项目\项目\shopping\server\logs\server\server-web.log, found exception: targetFile D:\project\项目\项目\shopping\server\logs\server\server-web.log.2021-07-13 exists!!!
+    at renameOrDelete (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:63:17)
+    at async DayRotator.rotate (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:28:9)
+    at async Object.task (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js:17:7)
+
+pid: 24252
+hostname: DESKTOP-0OV4JUH
+
+2021-07-14 08:44:49,955 ERROR 24252 nodejs.Error: [egg-logrotator] rename D:\project\项目\项目\shopping\server\logs\server\egg-web.log, found exception: targetFile D:\project\项目\项目\shopping\server\logs\server\egg-web.log.2021-07-13 exists!!!
+    at renameOrDelete (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:63:17)
+    at async DayRotator.rotate (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:28:9)
+    at async Object.task (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js:17:7)
+
+pid: 24252
+hostname: DESKTOP-0OV4JUH
+
+2021-07-14 08:44:49,987 ERROR 24252 nodejs.Error: [egg-logrotator] rename D:\project\项目\项目\shopping\server\logs\server\egg-schedule.log, found exception: targetFile D:\project\项目\项目\shopping\server\logs\server\egg-schedule.log.2021-07-13 exists!!!
+    at renameOrDelete (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:63:17)
+    at async DayRotator.rotate (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:28:9)
+    at async Object.task (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js:17:7)
+
+pid: 24252
+hostname: DESKTOP-0OV4JUH
+
+2021-07-14 08:44:49,990 ERROR 24252 nodejs.Error: [egg-logrotator] rename D:\project\项目\项目\shopping\server\logs\server\egg-agent.log, found exception: targetFile D:\project\项目\项目\shopping\server\logs\server\egg-agent.log.2021-07-13 exists!!!
+    at renameOrDelete (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:63:17)
+    at async DayRotator.rotate (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\lib\rotator.js:28:9)
+    at async Object.task (D:\project\项目\项目\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js:17:7)
+
+pid: 24252
+hostname: DESKTOP-0OV4JUH
+
+2021-07-14 08:44:49,735 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 50303475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+

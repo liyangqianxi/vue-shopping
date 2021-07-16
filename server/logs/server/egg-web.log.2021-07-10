@@ -1,0 +1,139 @@
+2021-07-10 00:06:30,358 INFO 10132 [egg-logrotator] app logger reload: got log-reload message
+2021-07-10 07:34:12,318 INFO 10132 [-/127.0.0.1/-/122ms SCHEDULE /__schedule?path=D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\李杨\\AppData\\Local\\Temp\\egg-multipart-tmp\\server"
+2021-07-10 07:34:12,319 WARN 10132 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 07:34:12,326 INFO 10132 [-/127.0.0.1/-/131ms SCHEDULE /__schedule?path=D:\project\项目\项目\shopping\server\node_modules\_egg-multipart@2.13.0@egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-07-10 07:50:59,275 WARN 10132 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-10 07:50:59,277 WARN 10132 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 09:11:04,259 WARN 10132 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 09:12:04,588 INFO 17336 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 09:12:04,636 INFO 17336 [egg-multipart] stream mode enable
+2021-07-10 09:12:05,622 INFO 17336 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 09:12:06,271 INFO 17336 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 09:12:06,275 INFO 17336 [egg-security] use methodnoallow middleware
+2021-07-10 09:12:06,276 INFO 17336 [egg-security] use noopen middleware
+2021-07-10 09:12:06,279 INFO 17336 [egg-security] use nosniff middleware
+2021-07-10 09:12:06,280 INFO 17336 [egg-security] use xssProtection middleware
+2021-07-10 09:12:06,281 INFO 17336 [egg-security] use xframe middleware
+2021-07-10 09:12:06,282 INFO 17336 [egg-security] use dta middleware
+2021-07-10 09:12:06,282 INFO 17336 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 09:12:06,314 INFO 17336 [egg:core] dump config after load, 5ms
+2021-07-10 09:12:06,320 INFO 17336 [egg-mongoose] starting...
+2021-07-10 09:12:04,837 INFO 12972 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 09:12:04,889 INFO 12972 [egg-multipart] stream mode enable
+2021-07-10 09:12:05,623 INFO 12972 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 09:12:06,272 INFO 12972 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 09:12:06,276 INFO 12972 [egg-security] use methodnoallow middleware
+2021-07-10 09:12:06,277 INFO 12972 [egg-security] use noopen middleware
+2021-07-10 09:12:06,280 INFO 12972 [egg-security] use nosniff middleware
+2021-07-10 09:12:06,281 INFO 12972 [egg-security] use xssProtection middleware
+2021-07-10 09:12:06,281 INFO 12972 [egg-security] use xframe middleware
+2021-07-10 09:12:06,282 INFO 12972 [egg-security] use dta middleware
+2021-07-10 09:12:06,282 INFO 12972 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 09:12:06,315 INFO 12972 [egg:core] dump config after load, 6ms
+2021-07-10 09:12:06,320 INFO 12972 [egg-mongoose] starting...
+2021-07-10 09:12:06,371 INFO 17336 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 09:12:06,378 INFO 17336 [egg-mongoose] instance[0] start successfully
+2021-07-10 09:12:06,380 INFO 17336 [egg-watcher:application] watcher start success
+2021-07-10 09:12:06,394 INFO 17336 [egg:core] dump config after ready, 9ms
+2021-07-10 09:12:06,371 INFO 12972 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 09:12:06,379 INFO 12972 [egg-mongoose] instance[0] start successfully
+2021-07-10 09:12:06,384 INFO 12972 [egg-watcher:application] watcher start success
+2021-07-10 09:12:06,400 INFO 12972 [egg:core] dump config after ready, 13ms
+2021-07-10 09:12:06,533 INFO 14424 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 09:12:06,565 INFO 14424 [egg-multipart] stream mode enable
+2021-07-10 09:12:07,085 INFO 14424 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 09:12:07,490 INFO 14424 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 09:12:07,494 INFO 14424 [egg-security] use methodnoallow middleware
+2021-07-10 09:12:07,495 INFO 14424 [egg-security] use noopen middleware
+2021-07-10 09:12:07,496 INFO 14424 [egg-security] use nosniff middleware
+2021-07-10 09:12:07,497 INFO 14424 [egg-security] use xssProtection middleware
+2021-07-10 09:12:07,498 INFO 14424 [egg-security] use xframe middleware
+2021-07-10 09:12:07,499 INFO 14424 [egg-security] use dta middleware
+2021-07-10 09:12:07,499 INFO 14424 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 09:12:07,523 INFO 14424 [egg:core] dump config after load, 6ms
+2021-07-10 09:12:07,529 INFO 14424 [egg-mongoose] starting...
+2021-07-10 09:12:07,574 INFO 14424 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 09:12:07,582 INFO 14424 [egg-mongoose] instance[0] start successfully
+2021-07-10 09:12:07,587 INFO 14424 [egg-watcher:application] watcher start success
+2021-07-10 09:12:07,600 INFO 14424 [egg:core] dump config after ready, 10ms
+2021-07-10 09:12:08,042 INFO 13264 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 09:12:08,078 INFO 13264 [egg-multipart] stream mode enable
+2021-07-10 09:12:08,604 INFO 13264 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 09:12:09,068 INFO 13264 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 09:12:09,073 INFO 13264 [egg-security] use methodnoallow middleware
+2021-07-10 09:12:09,074 INFO 13264 [egg-security] use noopen middleware
+2021-07-10 09:12:09,076 INFO 13264 [egg-security] use nosniff middleware
+2021-07-10 09:12:09,076 INFO 13264 [egg-security] use xssProtection middleware
+2021-07-10 09:12:09,077 INFO 13264 [egg-security] use xframe middleware
+2021-07-10 09:12:09,078 INFO 13264 [egg-security] use dta middleware
+2021-07-10 09:12:09,078 INFO 13264 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 09:12:09,107 INFO 13264 [egg:core] dump config after load, 6ms
+2021-07-10 09:12:09,114 INFO 13264 [egg-mongoose] starting...
+2021-07-10 09:12:09,155 INFO 13264 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 09:12:09,163 INFO 13264 [egg-mongoose] instance[0] start successfully
+2021-07-10 09:12:09,169 INFO 13264 [egg-watcher:application] watcher start success
+2021-07-10 09:12:09,180 INFO 13264 [egg:core] dump config after ready, 9ms
+2021-07-10 09:12:09,138 INFO 15628 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 09:12:09,173 INFO 15628 [egg-multipart] stream mode enable
+2021-07-10 09:12:09,732 INFO 15628 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 09:12:10,139 INFO 15628 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 09:12:10,143 INFO 15628 [egg-security] use methodnoallow middleware
+2021-07-10 09:12:10,143 INFO 15628 [egg-security] use noopen middleware
+2021-07-10 09:12:10,145 INFO 15628 [egg-security] use nosniff middleware
+2021-07-10 09:12:10,146 INFO 15628 [egg-security] use xssProtection middleware
+2021-07-10 09:12:10,147 INFO 15628 [egg-security] use xframe middleware
+2021-07-10 09:12:10,147 INFO 15628 [egg-security] use dta middleware
+2021-07-10 09:12:10,148 INFO 15628 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 09:12:10,171 INFO 15628 [egg:core] dump config after load, 6ms
+2021-07-10 09:12:10,176 INFO 15628 [egg-mongoose] starting...
+2021-07-10 09:12:10,223 INFO 15628 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 09:12:10,230 INFO 15628 [egg-mongoose] instance[0] start successfully
+2021-07-10 09:12:10,235 INFO 15628 [egg-watcher:application] watcher start success
+2021-07-10 09:12:10,246 INFO 15628 [egg:core] dump config after ready, 8ms
+2021-07-10 09:12:10,865 INFO 6700 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 09:12:10,899 INFO 6700 [egg-multipart] stream mode enable
+2021-07-10 09:12:11,541 INFO 6700 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 09:12:11,928 INFO 6700 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 09:12:11,931 INFO 6700 [egg-security] use methodnoallow middleware
+2021-07-10 09:12:11,932 INFO 6700 [egg-security] use noopen middleware
+2021-07-10 09:12:11,934 INFO 6700 [egg-security] use nosniff middleware
+2021-07-10 09:12:11,935 INFO 6700 [egg-security] use xssProtection middleware
+2021-07-10 09:12:11,935 INFO 6700 [egg-security] use xframe middleware
+2021-07-10 09:12:11,936 INFO 6700 [egg-security] use dta middleware
+2021-07-10 09:12:11,936 INFO 6700 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 09:12:11,959 INFO 6700 [egg:core] dump config after load, 6ms
+2021-07-10 09:12:11,965 INFO 6700 [egg-mongoose] starting...
+2021-07-10 09:12:12,006 INFO 6700 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 09:12:12,013 INFO 6700 [egg-mongoose] instance[0] start successfully
+2021-07-10 09:12:12,018 INFO 6700 [egg-watcher:application] watcher start success
+2021-07-10 09:12:12,028 INFO 6700 [egg:core] dump config after ready, 8ms
+2021-07-10 10:27:19,642 WARN 6700 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 10:27:19,711 WARN 15628 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 14:12:01,040 WARN 6700 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 14:12:01,106 WARN 15628 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 14:40:55,912 WARN 6700 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 14:40:56,045 WARN 15628 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-10 14:40:56,073 WARN 15628 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 18:33:07,407 WARN 15628 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 18:33:07,462 WARN 6700 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-10 18:33:07,464 WARN 6700 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-10 22:33:59,292 INFO 13932 [egg:logger] init all loggers with options: {"dir":"D:\\project\\项目\\项目\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-07-10 22:33:59,334 INFO 13932 [egg-multipart] stream mode enable
+2021-07-10 22:34:00,188 INFO 13932 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2021-07-10 22:34:00,879 INFO 13932 [egg-static] starting static serve /public/ -> D:\project\项目\项目\shopping\server\app\public
+2021-07-10 22:34:00,884 INFO 13932 [egg-security] use methodnoallow middleware
+2021-07-10 22:34:00,885 INFO 13932 [egg-security] use noopen middleware
+2021-07-10 22:34:00,889 INFO 13932 [egg-security] use nosniff middleware
+2021-07-10 22:34:00,890 INFO 13932 [egg-security] use xssProtection middleware
+2021-07-10 22:34:00,891 INFO 13932 [egg-security] use xframe middleware
+2021-07-10 22:34:00,893 INFO 13932 [egg-security] use dta middleware
+2021-07-10 22:34:00,893 INFO 13932 [egg-security] compose 6 middlewares into one security middleware
+2021-07-10 22:34:00,927 INFO 13932 [egg:core] dump config after load, 7ms
+2021-07-10 22:34:00,933 INFO 13932 [egg-mongoose] starting...
+2021-07-10 22:34:00,994 INFO 13932 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2021-07-10 22:34:01,006 INFO 13932 [egg-mongoose] instance[0] start successfully
+2021-07-10 22:34:01,013 INFO 13932 [egg-watcher:application] watcher start success
+2021-07-10 22:34:01,026 INFO 13932 [egg:core] dump config after ready, 10ms
+2021-07-11 00:00:00,033 INFO 13932 [egg-logrotator] clean all log before 31 days
+2021-07-11 00:00:01,017 INFO 13932 [egg-logrotator] broadcast log-reload
+2021-07-11 00:00:01,017 INFO 13932 [egg-logrotator] rotate files success by DayRotator, files ["D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\common-error.log -> D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\common-error.log.2021-07-10","D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\server-web.log -> D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\server-web.log.2021-07-10","D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\egg-web.log -> D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\egg-web.log.2021-07-10","D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\egg-schedule.log -> D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\egg-schedule.log.2021-07-10","D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\egg-agent.log -> D:\\project\\项目\\项目\\shopping\\server\\logs\\server\\egg-agent.log.2021-07-10"]

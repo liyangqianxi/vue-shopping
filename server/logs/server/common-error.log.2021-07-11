@@ -1,0 +1,86 @@
+2021-07-11 07:50:02,442 ERROR 18636 nodejs.ClusterClientNoResponseError: client no response in 23997914ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18636
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 08:12:53,797 ERROR 18636 nodejs.ClusterClientNoResponseError: client no response in 951147ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18636
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 10:22:46,319 ERROR 18636 nodejs.ClusterClientNoResponseError: client no response in 1269680ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18636
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 11:44:04,109 ERROR 18636 nodejs.ClusterClientNoResponseError: client no response in 2796767ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18636
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 12:43:25,925 ERROR 18636 nodejs.ClusterClientNoResponseError: client no response in 3541713ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18636
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 12:49:30,678 ERROR 18636 nodejs.ClusterClientNoResponseError: client no response in 344668ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18636
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 14:47:39,825 ERROR 15288 [-/127.0.0.1/-/46ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '829f8bb596dc4270a46fa0a5b5937411': '' }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\project\项目\项目\shopping\server\node_modules\_mongoose@5.13.2@mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+messageFormat: undefined
+stringValue: "\"{ '829f8bb596dc4270a46fa0a5b5937411': '' }\""
+kind: "string"
+value: {"829f8bb596dc4270a46fa0a5b5937411":""}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 15288
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 17:26:05,959 ERROR 16404 nodejs.ClusterClientNoResponseError: client no response in 2479828ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 16404
+hostname: DESKTOP-0OV4JUH
+
+2021-07-11 18:08:52,383 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 281091ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+
+2021-07-12 14:22:51,146 ERROR 8168 nodejs.ClusterClientNoResponseError: client no response in 72138356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 8168
+hostname: DESKTOP-0OV4JUH
+

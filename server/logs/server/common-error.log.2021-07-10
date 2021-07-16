@@ -1,0 +1,559 @@
+2021-07-10 07:34:12,187 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 26601964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 07:50:59,253 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 306671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 09:11:04,256 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 4304770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 10:27:19,663 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 529693ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 10:27:19,685 ERROR 21080 nodejs.ClusterClientNoResponseError: client no response in 529661ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21080
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 14:12:01,060 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 6898189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 14:12:01,104 ERROR 21080 nodejs.ClusterClientNoResponseError: client no response in 6898192ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21080
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 14:40:55,928 ERROR 21080 nodejs.ClusterClientNoResponseError: client no response in 1734633ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21080
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 14:40:55,902 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 1734726ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 18:33:07,405 ERROR 9628 nodejs.ClusterClientNoResponseError: client no response in 11890584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9628
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 18:33:07,419 ERROR 21080 nodejs.ClusterClientNoResponseError: client no response in 11890526ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\project\项目\项目\shopping\server\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21080
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:18:18,258 ERROR 6700 [-/127.0.0.1/-/21ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 6700
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:18:24,161 ERROR 6700 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 6700
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:20:45,847 ERROR 6700 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 6700
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:33:03,847 ERROR 6700 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 6700
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:33:07,627 ERROR 6700 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 6700
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:34:52,120 ERROR 13932 [-/127.0.0.1/-/6ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:34:56,636 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:37:43,944 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:39:06,167 ERROR 13932 [-/127.0.0.1/-/4ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:10,865 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:43,835 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:45,901 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:46,093 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:46,585 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:46,843 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:54:47,061 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:57:16,116 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:57:18,796 ERROR 13932 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:57:22,787 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:58:12,328 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 22:58:58,880 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 23:01:12,964 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 23:02:51,256 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 23:02:54,824 ERROR 13932 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+
+2021-07-10 23:03:01,636 ERROR 13932 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\project\项目\项目\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\project\项目\项目\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\project\项目\项目\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\project\项目\项目\shopping\server\node_modules\_egg-security@2.9.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\project\项目\项目\shopping\server\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\project\项目\项目\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\project\项目\项目\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\project\项目\项目\shopping\server\node_modules\_egg@2.29.4@egg\app\middleware\meta.js:17:5)
+
+pid: 13932
+hostname: DESKTOP-0OV4JUH
+

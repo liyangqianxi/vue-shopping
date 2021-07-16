@@ -3,7 +3,7 @@
     <div>
         <div id="subclassification">
             <div v-for="(val,key) in arr" :key="key">
-                <img class="classification" :src="val.image" alt />
+                <img class="classification" :src="val.image" alt @click="go(val.mallCategoryId,key)" />
                 <div>{{val.mallCategoryName}}</div>
             </div>
         </div>
@@ -28,7 +28,18 @@ export default {
         }
     },
     components: {},
-    methods: {},
+    methods: {
+        go (val, key) {
+            // console.log(val, key);
+            this.$router.push({
+                path: '/classify',
+                query: {
+                    subscript: val,
+                    key: key
+                }
+            })
+        }
+    },
     mounted () {
     },
     computed: {},

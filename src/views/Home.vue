@@ -1,8 +1,23 @@
 <template>
     <div>
-        <roof></roof>
-		
-        <div>
+        <div style="height: 54px; width: 100%;"></div>
+        <div id="grabble">
+            <roof></roof>
+            <div id="seek">
+                <van-search v-model.trim="value" show-action placeholder="请输入搜索关键词" ref="box" background="rgb(242, 242, 242)" @focus="focus" @blur="saveSearch">
+                    <template #action>
+                        <div>
+                            <div v-if="display===false" @click="close">取消</div>
+                            <div v-else>搜索</div>
+                        </div>
+                    </template>
+                </van-search>
+            </div>
+        </div>
+        <div v-if="display===false">
+            <history :merchandise="merchandise" :price="price"></history>
+        </div>
+        <div v-if="display===true">
             <van-pull-refresh id="box" v-model="isLoading" success-text="刷新成功" @refresh="onRefresh">
                 <carousel :list="list"></carousel>
                 <subclassification :arr="arr" :text="text"></subclassification>
@@ -37,6 +52,7 @@ import Subclassification from '../components/home/subclassification/Subclassific
 import Smooth from '../components/home/smooth/Smooth.vue';
 import Commodity from '../components/home/commodity/Commodity.vue';
 import Sell from '../components/home/sell/Sell.vue';
+import History from '../components/home/history/History.vue';
 
 
 export default {
@@ -61,8 +77,19 @@ export default {
             floor2: null,
             floor3: null,
             //热销
-            hotGoods: []
-
+            hotGoods: [],
+            // 搜索的值
+            value: '',
+            // 显示与隐藏
+            display: true,
+            // 搜索的商品
+            merchandise: [],
+            // 搜索值
+            price: "",
+            // 搜索历史记录
+            records: [],
+            obj1: [],
+            // obj2: nul
         }
     },
     components: {
@@ -72,6 +99,7 @@ export default {
         Smooth,
         Commodity,
         Sell,
+        History,
     },
     methods: {
         onRefresh () {
@@ -83,41 +111,82 @@ export default {
         },
         getData () {
             this.$api.recommend().then(res => {
-                console.log(res);
-                // 轮播
-                res.data.slides.map(item => {
-                    this.list.push(item.image)
-                })
-                // 分类
-                this.arr = res.data.category
-                // 广告
-                let a = res.data.advertesPicture
-                this.text = Object.values(a)
-                // 丝滑
-                this.recommend = res.data.recommend
-                // 以下都是楼层数据
-                this.floor1 = res.data.floor1
-                this.floor2 = res.data.floor2
-                this.floor3 = res.data.floor3
-                this.floorName1 = res.data.floorName.floor1
-                this.floorName2 = res.data.floorName.floor2
-                this.floorName3 = res.data.floorName.floor3
-                // console.log(this.floorName1, this.floorName2, this.floorName3);
-                // 热销
-                this.hotGoods = res.data.hotGoods
+                // console.log(res);
+                if (res.code === 200) {
+                    // 轮播
+                    res.data.slides.map(item => {
+                        this.list.push(item.image)
+                    })
+                    // 分类
+                    this.arr = res.data.category
+                    // 广告
+                    let a = res.data.advertesPicture
+                    this.text = Object.values(a)
+                    // 丝滑
+                    this.recommend = res.data.recommend
+                    // 以下都是楼层数据
+                    this.floor1 = res.data.floor1
+                    this.floor2 = res.data.floor2
+                    this.floor3 = res.data.floor3
+                    this.floorName1 = res.data.floorName.floor1
+                    this.floorName2 = res.data.floorName.floor2
+                    this.floorName3 = res.data.floorName.floor3
+                    // console.log(this.floorName1, this.floorName2, this.floorName3);
+                    // 热销
+                    this.hotGoods = res.data.hotGoods
+                    // 分类路由存储数据
+                    localStorage.setItem("obj", JSON.stringify(res.data.category))
+
+                }
 
             }).catch(err => {
                 console.log(err);
             })
+        },
+        //取消
+        close () {
+            this.display = true
+            this.value = ""
+
+        },
+        focus () {
+            this.display = false
+        },
+        saveSearch () {
+            this.$utils.saveHistory({
+                key: 'search',
+                data: this.price,
+                attr: 'name'
+            })
         }
+
+
     },
     mounted () {
         this.getData()
-
-
     },
     computed: {},
-    watch: {}
+    watch: {
+        value (val) {
+            if (val !== "") {
+                // 搜索商品
+                this.$api.search(this.value).then(res => {
+                    if (res.data.list.length > 0) {
+                        this.merchandise = res.data.list
+                        this.price = val
+                    } else {
+                        Toast('搜索失败');
+                    }
+                }).catch(err => {
+                    console.log(err);
+                })
+
+            }
+            if (val === "") {
+                this.merchandise = []
+            }
+        }
+    }
 }
 </script>
 
@@ -132,5 +201,14 @@ export default {
     background: red;
     color: white;
     border-radius: 100%;
+}
+#grabble {
+    background: rgb(242, 242, 242);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <!--首页顶部框 -->
+    <!--定位 -->
     <div>
         <div id="roof">
             <div id="site" @click="go">
@@ -7,13 +7,6 @@
                 <div class="roof-box">
                     <van-icon name="arrow-down" size="20px" />
                 </div>
-            </div>
-            <div id="seek">
-                <van-search v-model="value" show-action placeholder="请输入搜索关键词" @search="onSearch" background="rgb(242, 242, 242)">
-                    <template #action>
-                        <div @click="onSearch">搜索</div>
-                    </template>
-                </van-search>
             </div>
         </div>
     </div>
@@ -26,18 +19,11 @@ export default {
     props: {},
     data () {
         return {
-            value: '',
             newcity: "",
         }
     },
     components: {},
     methods: {
-        onSearch (val) {
-            console.log(val);
-        },
-        onCancel () {
-            Toast('搜索');
-        },
         getLocation () {
             let that = this
             AMap.plugin('AMap.Geolocation', function () {
@@ -105,8 +91,6 @@ export default {
         font-size: 15px;
         display: flex;
     }
-    background: rgb(242, 242, 242);
-    display: flex;
 }
 
 .roof-box {

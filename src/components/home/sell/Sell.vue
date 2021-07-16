@@ -2,7 +2,7 @@
     <div>
         <div class="text">热销商品</div>
         <div class="commodity">
-            <div class="box" v-for="(val,key) in hotGoods" :key="key">
+            <div class="box" v-for="(val,key) in hotGoods" :key="key" @click="details(val)">
                 <div>
                     <img :src="val.image" alt />
                 </div>
@@ -32,9 +32,20 @@ export default {
         }
     },
     components: {},
-    methods: {},
+    methods: {
+        // 单个商品详情传递参数
+        details (val) {
+            this.$router.push({
+                path: '/single',
+                query: {
+                    id: val.goodsId
+                }
+            })
+            // console.log(val.goodsId);
+        }
+    },
     mounted () {
-        console.log(this.hotGoods);
+        // console.log(this.hotGoods);
     },
     computed: {},
     watch: {}

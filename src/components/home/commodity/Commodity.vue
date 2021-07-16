@@ -9,13 +9,13 @@
 
             <div class="photo">
                 <div class="left">
-                    <img :src="floor1[0].image" alt class="picture" />
-                    <img :src="floor1[3].image" alt />
+                    <img :src="floor1[0].image" alt class="picture" @click="details(floor1[0].goodsId)" />
+                    <img :src="floor1[3].image" alt @click="details(floor1[3].goodsId)" />
                 </div>
                 <div class="right">
-                    <img :src="floor1[1].image" alt />
-                    <img :src="floor1[2].image" alt />
-                    <img :src="floor1[4].image" alt />
+                    <img :src="floor1[1].image" alt @click="details(floor1[1].goodsId)" />
+                    <img :src="floor1[2].image" alt @click="details(floor1[2].goodsId)" />
+                    <img :src="floor1[4].image" alt @click="details(floor1[4].goodsId)" />
                 </div>
             </div>
         </div>
@@ -40,7 +40,18 @@ export default {
         }
     },
     components: {},
-    methods: {},
+    methods: {
+        details (val) {
+            this.$router.push({
+                path: '/single',
+                query: {
+                    id: val
+                }
+            })
+            // console.log(val);
+        }
+
+    },
     mounted () {
         // console.log(this.floor1);
     },
@@ -60,7 +71,6 @@ export default {
     width: 185px;
 }
 .photo img {
-	
     width: 180px;
     border: 1px solid #ddd;
 }
